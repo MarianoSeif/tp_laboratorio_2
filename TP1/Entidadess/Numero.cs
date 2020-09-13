@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime;
 using System.Text;
 
 namespace Entidades
 {
-    class Numero
+    public class Numero
     {
         private double numero;
 
@@ -13,93 +14,70 @@ namespace Entidades
             set
             {
                 numero = ValidarNumero(value);
-                //numero = Convert.ToDouble(value);
             }
         }
 
-        Numero()
+        public Numero()
         {
-            numero = 0;
+            this.numero = 0;
         }
 
-        Numero(double numero)
+        public Numero(double numero)
         {
-
+            this.numero = numero;
         }
-        Numero(string strNumero)
+        public Numero(string strNumero)
         {
-
+            SetNumero = strNumero;
         }
 
-        public string BinarioDecimal(string binario)
+        public static string BinarioDecimal(string strNumero)
         {
-            return Convert.ToInt32(binario).ToString();
-
-            /*
-            double numero = 0;
-            if (EsBinario(binario))
+            string retorno = "No se puede convertir";
+            if (EsBinario(strNumero))
             {
-                for (int i = 0; i < binario.Length; i++)
+                double resultado = 0;
+                for (int i = 0; i < strNumero.Length; i++)
                 {
-                    numero += (int)binario[i] * (Math.Pow(2, (binario.Length-i)));
+                    resultado += Char.GetNumericValue(strNumero, i) * Math.Pow(2, strNumero.Length - 1 - i);
                 }
-                return numero.ToString();
+                retorno = resultado.ToString();
             }
-            else
-            {
-                return "Valor Invalido";
-            }
-            */
+            return retorno;
         }
 
-        public string DecimalBinario(double numero)
+        public static string DecimalBinario(double numero)
         {
-            
-            int num = (int)ValidarNumero(numero.ToString());
-            return Convert.ToString(num, 2);
+            return Convert.ToString((int)Math.Abs(numero), 2);
         }
-        public string DecimalBinario(string numero)
+        public static string DecimalBinario(string strNumero)
         {
-            int num = (int)ValidarNumero(numero);
-            return Convert.ToString(num, 2);
+            double.TryParse(strNumero, out double numero);
+            return DecimalBinario(numero);
         }
 
-        private bool EsBinario(string binario)
+        private static bool EsBinario(string strNumero)
         {
-            bool isBinary = true;
-            char[] numeroCharArray = binario.ToCharArray();
-            foreach (var item in numeroCharArray)
+            for (int i = 0; i < strNumero.Length; i++)
             {
-                if (item < '0' || item > '1')
+                if (strNumero[i] < '0' || strNumero[i] > '1')
                 {
-                    isBinary = false;
-                    break;
+                    return false;
                 }
             }
-            return isBinary;
-        }        
+            return true;
+        }
 
-        public double ValidarNumero(string strNumero)
+        public static double ValidarNumero(string strNumero)
         {
-            bool isNumber = true;
-            char[] numeroCharArray = strNumero.ToCharArray();
-            foreach (var item in numeroCharArray)
+            if (double.TryParse(strNumero, out double numero))
             {
-                if(item<'0' || item > '9' || item!='.')
-                {
-                    isNumber = false;
-                    break;
-                }
-            }
-            if (isNumber)
-            {
-                return Convert.ToDouble(strNumero);
-            }
+                return numero;
+            } 
             else
             {
                 return 0;
             }
-            
         }
 
         public static double operator -(Numero n1, Numero n2)
@@ -124,5 +102,6 @@ namespace Entidades
             
             return n1.numero / n2.numero;
         }
+
     }
 }

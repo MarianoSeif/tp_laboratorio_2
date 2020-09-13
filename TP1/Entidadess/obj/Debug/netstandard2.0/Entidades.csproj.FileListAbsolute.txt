@@ -1,0 +1,9 @@
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP1\Entidadess\obj\Debug\netstandard2.0\Entidades.pdb

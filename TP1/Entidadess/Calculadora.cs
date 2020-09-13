@@ -4,29 +4,27 @@ using System.Text;
 
 namespace Entidades
 {
-    static class Calculadora
+    public static class Calculadora
     {
-        static double Operar(Numero num1, Numero num2, string operador)
+        public static double Operar(Numero num1, Numero num2, string operador)
         {
             double resultado=0;
-            char[] operadorChar = operador.ToCharArray(0, 1);
-            operador = Calculadora.ValidarOperador(operadorChar[0]);
+            operador = Calculadora.ValidarOperador(operador[0]);
             switch (operador)
             {
                 case "+":
-                    resultado = (double)(num1 + num2);
+                    resultado = num1 + num2;
                     break;
                 case "-":
-                    resultado = (double)(num1 - num2);
+                    resultado = num1 - num2;
                     break;
                 case "*":
-                    resultado = (double)(num1 * num2);
+                    resultado = num1 * num2;
                     break;
                 case "/":
-                    resultado = (double)(num1 / num2);
+                    resultado = num1 / num2;
                     break;
             }
-
             return resultado;
         }
 
