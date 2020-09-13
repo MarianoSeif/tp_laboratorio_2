@@ -58,6 +58,13 @@ namespace MiCalculadora
             Limpiar();
         }
 
+        /// <summary>
+        /// Genera los objetos de tipo Numero y llama al método Operar de la clase Calculadora
+        /// </summary>
+        /// <param name="strNumero1"></param>
+        /// <param name="strNumero2"></param>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         private static double Operar(string strNumero1, string strNumero2, string operador)
         {
             Numero num1 = new Numero(strNumero1);
@@ -66,6 +73,9 @@ namespace MiCalculadora
             return Calculadora.Operar(num1, num2, operador);
         }
 
+        /// <summary>
+        /// Limpia los datos del formulario
+        /// </summary>
         private void Limpiar()
         {
             tbNumero1.Clear();
@@ -74,6 +84,8 @@ namespace MiCalculadora
             lblErrorOp2.Text = "";
             lblResultado.Text = "";
             cmbOperador.SelectedItem = "+";
+            btnConvertirABinario.Enabled = false;
+            btnConvertirADecimal.Enabled = false;
         }
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
@@ -120,7 +132,5 @@ namespace MiCalculadora
         {
             Application.Exit();
         }
-
-        
     }
 }

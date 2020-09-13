@@ -6,6 +6,13 @@ namespace Entidades
 {
     public static class Calculadora
     {
+        /// <summary>
+        /// Realiza la operación pedida entre ambos números
+        /// </summary>
+        /// <param name="num1">Objeto tipo Numero</param>
+        /// <param name="num2">Objeto tipo Numero</param>
+        /// <param name="operador">String conteniendo el operador especificado</param>
+        /// <returns>double</returns>
         public static double Operar(Numero num1, Numero num2, string operador)
         {
             double resultado=0;
@@ -28,6 +35,11 @@ namespace Entidades
             return resultado;
         }
 
+        /// <summary>
+        /// Valida el operador pasado
+        /// </summary>
+        /// <param name="operador">String conteniendo el operador</param>
+        /// <returns>string</returns>
         private static string ValidarOperador(char operador)
         {
             string retorno;
