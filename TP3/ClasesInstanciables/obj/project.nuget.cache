@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "K1gQ63DhXFY7GBuz3Dx52MqSZQkK+l7SwPcHW4cR0im4E9ag0AvOs4lmimbj/mEWvsQF/O2nQxs52fT1ZEKsbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ms\\source\\repos\\TPs_ProgramacionII\\TP3\\ClasesInstanciables\\ClasesInstanciables.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ms\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ms\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

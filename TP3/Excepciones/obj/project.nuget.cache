@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lqpaHpC5/xyudO01N/mgsLRK3ncUa/MVJ/8wlNTPvl3+T+lE3Fxq8YGz8Xy6tay7z2tcUAU6PzTBukeMWkg6rQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ms\\source\\repos\\TPs_ProgramacionII\\TP3\\Excepciones\\Excepciones.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ms\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ms\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

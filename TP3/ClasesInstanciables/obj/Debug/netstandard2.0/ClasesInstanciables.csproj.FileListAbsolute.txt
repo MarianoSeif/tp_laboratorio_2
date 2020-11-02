@@ -1,0 +1,16 @@
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\ClasesInstanciables.deps.json
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\ClasesInstanciables.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\ClasesInstanciables.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\Archivos.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\ClasesAbstractas.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\Excepciones.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\Archivos.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\ClasesAbstractas.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\bin\Debug\netstandard2.0\Excepciones.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\obj\Debug\netstandard2.0\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\obj\Debug\netstandard2.0\ClasesInstanciables.AssemblyInfoInputs.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\obj\Debug\netstandard2.0\ClasesInstanciables.AssemblyInfo.cs
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\obj\Debug\netstandard2.0\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\obj\Debug\netstandard2.0\ClasesInstanciables.csproj.CopyComplete
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\obj\Debug\netstandard2.0\ClasesInstanciables.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\ClasesInstanciables\obj\Debug\netstandard2.0\ClasesInstanciables.pdb

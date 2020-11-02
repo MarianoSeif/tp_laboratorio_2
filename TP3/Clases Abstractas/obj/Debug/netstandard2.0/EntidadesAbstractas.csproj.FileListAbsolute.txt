@@ -1,0 +1,9 @@
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\bin\Debug\netstandard2.0\EntidadesAbstractas.deps.json
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\bin\Debug\netstandard2.0\EntidadesAbstractas.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\bin\Debug\netstandard2.0\EntidadesAbstractas.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\obj\Debug\netstandard2.0\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\obj\Debug\netstandard2.0\EntidadesAbstractas.AssemblyInfoInputs.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\obj\Debug\netstandard2.0\EntidadesAbstractas.AssemblyInfo.cs
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\obj\Debug\netstandard2.0\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\obj\Debug\netstandard2.0\EntidadesAbstractas.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP3\Clases Abstractas\obj\Debug\netstandard2.0\EntidadesAbstractas.pdb
