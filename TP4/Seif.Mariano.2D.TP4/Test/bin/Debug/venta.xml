@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Venta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Cliente><Nombre>Pedro Perez</Nombre><Id>2</Id></Cliente><Items><ItemVenta><Producto><Id>1</Id><Descripcion>Fideos</Descripcion><Precio>56</Precio><Stock>24</Stock></Producto><Cantidad>1</Cantidad></ItemVenta></Items></Venta>

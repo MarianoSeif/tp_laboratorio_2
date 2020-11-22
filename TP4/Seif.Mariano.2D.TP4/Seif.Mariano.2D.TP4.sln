@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{D9A078EB-6F9A-4ECC-8395-92EB0CBB39E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{2CC70CD2-5851-4264-A3E1-62BF8848FFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{1D79E360-0D19-46E2-974D-3ED697498A48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A078EB-6F9A-4ECC-8395-92EB0CBB39E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A078EB-6F9A-4ECC-8395-92EB0CBB39E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A078EB-6F9A-4ECC-8395-92EB0CBB39E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A078EB-6F9A-4ECC-8395-92EB0CBB39E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC70CD2-5851-4264-A3E1-62BF8848FFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC70CD2-5851-4264-A3E1-62BF8848FFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC70CD2-5851-4264-A3E1-62BF8848FFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC70CD2-5851-4264-A3E1-62BF8848FFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D79E360-0D19-46E2-974D-3ED697498A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D79E360-0D19-46E2-974D-3ED697498A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D79E360-0D19-46E2-974D-3ED697498A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D79E360-0D19-46E2-974D-3ED697498A48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9637660-7B55-4EA1-AFAC-82BA27A2A342}
+	EndGlobalSection
+EndGlobal

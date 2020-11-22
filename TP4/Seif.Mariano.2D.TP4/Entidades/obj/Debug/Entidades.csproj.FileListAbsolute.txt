@@ -1,0 +1,6 @@
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP4\Seif.Mariano.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP4\Seif.Mariano.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP4\Seif.Mariano.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP4\Seif.Mariano.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP4\Seif.Mariano.2D.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ms\source\repos\TPs_ProgramacionII\TP4\Seif.Mariano.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
