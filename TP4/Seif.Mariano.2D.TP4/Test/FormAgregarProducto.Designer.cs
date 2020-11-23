@@ -87,7 +87,7 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnSalir.Location = new System.Drawing.Point(135, 300);
+            this.btnSalir.Location = new System.Drawing.Point(236, 312);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(77, 30);
             this.btnSalir.TabIndex = 19;
@@ -98,7 +98,7 @@
             // btnGuardar
             // 
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnGuardar.Location = new System.Drawing.Point(17, 300);
+            this.btnGuardar.Location = new System.Drawing.Point(118, 312);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(77, 30);
             this.btnGuardar.TabIndex = 18;
@@ -274,6 +274,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(975, 642);
+            this.ControlBox = false;
             this.Controls.Add(this.lblInfo2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

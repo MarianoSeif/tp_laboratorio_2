@@ -17,7 +17,7 @@ namespace Entidades
     public static class DB
     {
         const string STRINGCONNEC = "Data Source = .\\SQLEXPRESS;Initial Catalog = SeifMariano2dTp4; Integrated Security = True;";
-
+        
         static SqlConnection sqlConn;
         static SqlCommand command;
 
