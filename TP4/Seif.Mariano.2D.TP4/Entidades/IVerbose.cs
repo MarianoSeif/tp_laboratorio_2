@@ -8,7 +8,6 @@ namespace Entidades
 {
     public interface IVerbose
     {
-        string Message { get; }
-        void MostrarDatos();
+        string MostrarDatos();
     }
 }
